@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.75" multi-file="no" uid="simp844c7f508cb441058c6ff06e9ebb1257" creation-date="12/15/2024 07:42:49">
+  <meta>
+    <name>finalprojectoop2</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-entity" type="Entity" />
+        <value>9</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>45</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-entity" type="Entity" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-relationship" type="Relationship" />
+        <value>12</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>18</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Erd.ErdEntityAttribute</type>
+        <value>26</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-55cd15a20abf473cb2d6a2cdc2f0e7a1" name="" task-id-sequence="0">
+    <working-schedule uid="ws-d758321e19fc430aac853b0fe0ed5dea" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-9e5dc6b396c740b18da5b674d73bdc9f" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-891482f75f2f435ca92c98767f23bcf9" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Class:f0a26e6ffa674508b1de7fe007f59196" name="Event" class-ref="f0a26e6ffa674508b1de7fe007f59196" />
+        <type id="Class:f3163a9db2724da1b67e73578d4cbb77" name="Equipement" class-ref="f3163a9db2724da1b67e73578d4cbb77" />
+        <type id="Class:340ec0fd07bc47409bd79f1b06525bf7" name="Staff" class-ref="340ec0fd07bc47409bd79f1b06525bf7" />
+        <type id="Class:e2d205acb5c447c5be7e6edb405b739f" name="Venue" class-ref="e2d205acb5c447c5be7e6edb405b739f" />
+        <type id="Class:008c410634e44edd9df1532c4d13f4a1" name="Material" class-ref="008c410634e44edd9df1532c4d13f4a1" />
+        <type id="Class:9c5ca41e63ab44ac91747a5aefd5db8a" name="Customer" class-ref="9c5ca41e63ab44ac91747a5aefd5db8a" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="c53ca165c15849da89483e5866313a35" cid="PROP043" type="property" owner="8276c76354294eb990a68ac184024832" creation-date="12/15/2024 08:10:08" visibility="private">
+      <structural-feature type="Venue" type-id="Class:e2d205acb5c447c5be7e6edb405b739f" />
+    </item>
+    <item id="622ceea4dd874725b06f17ec412551d2" cid="PROP019" type="property" owner="659e82bdc64e4b4fbf7739206ecd2c40" creator="" creation-date="12/15/2024 07:52:37" visibility="private">
+      <structural-feature type="Event" type-id="Class:f0a26e6ffa674508b1de7fe007f59196" />
+    </item>
+    <item id="2278d4c9a19e4112bc3b3569cf7c68f4" cid="PROP020" type="property" owner="659e82bdc64e4b4fbf7739206ecd2c40" creator="" creation-date="12/15/2024 07:52:37" visibility="private">
+      <structural-feature type="Material" type-id="Class:008c410634e44edd9df1532c4d13f4a1" />
+    </item>
+    <item id="1a86da8ce6e4435d8ac27f277041bad6" cid="PROP023" type="property" name="PhoneNumber" owner="9c5ca41e63ab44ac91747a5aefd5db8a" creation-date="12/15/2024 08:00:44" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="f174671ece0a453e9992de71137bda8e" cid="PROP022" type="property" name="FullName" owner="9c5ca41e63ab44ac91747a5aefd5db8a" creation-date="12/15/2024 08:00:38" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="fc3a2e3cf3fd43abaf4e349ca29198ba" cid="PROP044" type="property" owner="8276c76354294eb990a68ac184024832" creation-date="12/15/2024 08:10:08" visibility="private">
+      <structural-feature type="Event" type-id="Class:f0a26e6ffa674508b1de7fe007f59196" />
+    </item>
+    <item id="5cd6f6e9ed314767990ecb5a5a5b8c90" cid="PROP021" type="property" name="CustomerID" owner="9c5ca41e63ab44ac91747a5aefd5db8a" creation-date="12/15/2024 08:00:33" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="7a7be18f7fca4154a0be67aad00b9f40" cid="PROP025" type="property" name="EventID" owner="9c5ca41e63ab44ac91747a5aefd5db8a" creation-date="12/15/2024 08:00:53" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+    <item id="1c59a4e5e558458faec05420b8b6e2e0" cid="PROP026" type="property" owner="817074ff35a24c8fa46e6abb97872394" creation-date="12/15/2024 08:01:38" visibility="private">
+      <structural-feature type="Customer" type-id="Class:9c5ca41e63ab44ac91747a5aefd5db8a" />
+    </item>
+    <item id="5e7730cbd6f74ed1b285de160ae71fcc" cid="PROP036" type="property" owner="155f549452ca4f32a5cf3415a9287a6e" creation-date="12/15/2024 08:07:38" visibility="private">
+      <structural-feature type="Staff" type-id="Class:340ec0fd07bc47409bd79f1b06525bf7" />
+    </item>
+    <item id="bec20de922b646b6b6de4ae4bc29d415" cid="PROP027" type="property" owner="817074ff35a24c8fa46e6abb97872394" creation-date="12/15/2024 08:01:38" visibility="private">
+      <structural-feature type="Event" type-id="Class:f0a26e6ffa674508b1de7fe007f59196" />
+    </item>
+    <item id="12410bca847e4ff0ba7229967b307090" cid="PROP037" type="property" owner="155f549452ca4f32a5cf3415a9287a6e" creation-date="12/15/2024 08:07:38" visibility="private">
+      <structural-feature type="Event" type-id="Class:f0a26e6ffa674508b1de7fe007f59196" />
+    </item>
+    <item id="d1fa268604084b678c69f11df27da9ec" cid="PROP011" type="property" owner="070488776cf746658c47acee5d3f0263" creator="" creation-date="12/15/2024 07:50:02" visibility="private">
+      <structural-feature type="Equipement" type-id="Class:f3163a9db2724da1b67e73578d4cbb77" />
+    </item>
+    <item id="de4f27ee6e354c6bb8da2df4a41f3503" cid="PROP010" type="property" owner="070488776cf746658c47acee5d3f0263" creator="" creation-date="12/15/2024 07:50:02" visibility="private">
+      <structural-feature type="Event" type-id="Class:f0a26e6ffa674508b1de7fe007f59196" />
+    </item>
+    <item id="93a6610e107048b69725fb793c165d50" cid="PROP024" type="property" name="Email" owner="9c5ca41e63ab44ac91747a5aefd5db8a" creation-date="12/15/2024 08:00:47" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+    </item>
+  </items>
+  <models>
+    <model id="p24ee71137e3b47f3b0d49a057eb948a1_195894941" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/15/2024 07:43:08</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pdfdba17e594849cf9d6ae90094c81740_436885881" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-180,62">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/15/2024 07:43:08</creation-date>
+          <change-date>12/15/2024 08:10:21</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="008c410634e44edd9df1532c4d13f4a1" cid="C003" type="class" name="Material" creator="" creation-date="12/15/2024 07:50:15" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="abc74fc4c1ee546eaa11fdabf3c6c5b7b409" cid="PROP012" name="MaterialID" creation-date="12/15/2024 07:50:52" property-ref="0563d7436edb4748b1e4fb140975131a" />
+              <attribute id="add3c1cb15a55438a8aecc369d8932932551" cid="PROP013" name="Name" creation-date="12/15/2024 07:50:54" property-ref="2ebcb3653c0e4f41b0b502a8506c52d5" />
+              <attribute id="ae8850601bf63470fbc9585acc84bb89c961" cid="PROP014" name="Quantity" creation-date="12/15/2024 07:50:58" property-ref="8474caa3d8dc425eb708a1886d58ad3d" />
+              <attribute id="a8a80d64409f54f3da3e7b44171e15d95573" cid="PROP015" name="Cost" creation-date="12/15/2024 07:51:01" property-ref="440678c02d564185865ff60be58b6df0" />
+              <attribute id="ab43a0f9f488b4e9bb2ebeef3a9204ac9886" cid="PROP016" name="EventID" creation-date="12/15/2024 07:51:08" property-ref="b268101bafd04f18bfdb77f97676e6f1" />
+            </attributes>
+            <operations>
+              <operation id="o5b4793bfc7e24b3a83da253b0760c457770" cid="OP007" name="addMaterial" creation-date="12/15/2024 07:51:28" type="" type-id="" visibility="undefined" />
+              <operation id="o342b9c1e2b7b4981b2863cbeeb002b75622" cid="OP008" name="updateMaterial" creation-date="12/15/2024 07:51:41" type="" type-id="" visibility="undefined" />
+              <operation id="o1e39a5674c4d4d79ad32e44029d20c11966" cid="OP009" name="removeMaterial" creation-date="12/15/2024 07:51:46" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="439d8cbb65de4477be77f137afde6ecf" cid="PROP009" type="property" name="EventID" owner="f3163a9db2724da1b67e73578d4cbb77" creator="" creation-date="12/15/2024 07:49:07" visibility="private">
+            <structural-feature type="Event" type-id="Class:f0a26e6ffa674508b1de7fe007f59196" />
+          </item>
+          <item id="440678c02d564185865ff60be58b6df0" cid="PROP015" type="property" name="Cost" owner="008c410634e44edd9df1532c4d13f4a1" creator="" creation-date="12/15/2024 07:51:01" visibility="private">
+            <structural-feature type="Event" type-id="Class:f0a26e6ffa674508b1de7fe007f59196" />
+          </item>
+          <item id="8474caa3d8dc425eb708a1886d58ad3d" cid="PROP014" type="property" name="Quantity" owner="008c410634e44edd9df1532c4d13f4a1" creator="" creation-date="12/15/2024 07:50:58" visibility="private" />
+          <item id="51fafa6a4f214f9c986870fb9455cc52" cid="PROP004" type="property" name="VenueID" owner="f0a26e6ffa674508b1de7fe007f59196" creator="" creation-date="12/15/2024 07:45:27" visibility="private" />
+          <item id="8276c76354294eb990a68ac184024832" cid="REL008" type="relationship" creation-date="12/15/2024 08:10:08" from="e2d205acb5c447c5be7e6edb405b739f" to="f0a26e6ffa674508b1de7fe007f59196" visibility="package">
+            <owned-items />
+            <relation from="e2d205acb5c447c5be7e6edb405b739f" to="f0a26e6ffa674508b1de7fe007f59196" derived="false">
+              <start-role id="umlar-24c18362-168b-4eea-bd6b-0d1a5e6677e4" name="" navigability="" association-type="association" visibility="private" property-ref="c53ca165c15849da89483e5866313a35" />
+              <end-role id="umlar-29b64f3a-eb3e-4664-a92c-240e1cc7f166" name="" navigability="" association-type="association" visibility="private" property-ref="fc3a2e3cf3fd43abaf4e349ca29198ba" />
+            </relation>
+          </item>
+          <item id="b268101bafd04f18bfdb77f97676e6f1" cid="PROP016" type="property" name="EventID" owner="008c410634e44edd9df1532c4d13f4a1" creator="" creation-date="12/15/2024 07:51:08" visibility="private" />
+          <item id="9c5ca41e63ab44ac91747a5aefd5db8a" cid="C004" type="class" name="Customer" creation-date="12/15/2024 07:59:50">
+            <owned-items />
+            <attributes>
+              <attribute id="a49be0c3620ca4a348c991ef52d3cedb8784" cid="PROP021" name="CustomerID" creation-date="12/15/2024 08:00:33" property-ref="5cd6f6e9ed314767990ecb5a5a5b8c90" />
+              <attribute id="a4bea8c1ec8e1496e91271f6e3dbc408b258" cid="PROP022" name="FullName" creation-date="12/15/2024 08:00:38" property-ref="f174671ece0a453e9992de71137bda8e" />
+              <attribute id="a91b9556075164ba2a5aabd77e3fdf23e533" cid="PROP023" name="PhoneNumber" creation-date="12/15/2024 08:00:44" property-ref="1a86da8ce6e4435d8ac27f277041bad6" />
+              <attribute id="a209e38137a0d4cbb85220c82c137fb8b746" cid="PROP024" name="Email" creation-date="12/15/2024 08:00:47" property-ref="93a6610e107048b69725fb793c165d50" />
+              <attribute id="a1c0f25b841dc4dfa9a96e4b4c46d5477499" cid="PROP025" name="EventID" creation-date="12/15/2024 08:00:53" property-ref="7a7be18f7fca4154a0be67aad00b9f40" />
+            </attributes>
+            <operations>
+              <operation id="o4f9edc8825eb4c049e39218c7f47413d483" cid="OP010" name="AddCustomer" creation-date="12/15/2024 08:01:16" type="" type-id="" visibility="undefined" />
+              <operation id="o0d6793494e714fcb9218e563b5a1912c49" cid="OP011" name="UpdateCustomer" creation-date="12/15/2024 08:01:25" type="" type-id="" visibility="undefined" />
+              <operation id="oc418b087268e4805bc72e7eaccb29b68241" cid="OP012" name="RemoveCustomer" creation-date="12/15/2024 08:01:31" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="8cccac35202f47f8b128d60534923bf0" cid="PROP008" type="property" name="Quantitiy#" owner="f3163a9db2724da1b67e73578d4cbb77" creator="" creation-date="12/15/2024 07:49:00" visibility="private" />
+          <item id="f3163a9db2724da1b67e73578d4cbb77" cid="C002" type="class" name="Equipement" creator="" creation-date="12/15/2024 07:47:48" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="aa1e2d2c19c6e48a4a89edd21d3c9a30b752" cid="PROP006" name="EquipementID" creation-date="12/15/2024 07:48:52" property-ref="a9cfaca43bb041168587dd412dcf6d04" />
+              <attribute id="a28a4cf6a45fc490f96ec6ebaf0c957fd146" cid="PROP007" name="Name" creation-date="12/15/2024 07:48:55" property-ref="b241051d0377441083b0ca5a059090e9" />
+              <attribute id="a9f483b05bdb5422790461e6d3c0ca8e0988" cid="PROP008" name="Quantitiy#" creation-date="12/15/2024 07:49:00" property-ref="8cccac35202f47f8b128d60534923bf0" />
+              <attribute id="a2534125b2ecf4ea4b31664fa00a0eb9c269" cid="PROP009" name="EventID" creation-date="12/15/2024 07:49:07" property-ref="439d8cbb65de4477be77f137afde6ecf" />
+            </attributes>
+            <operations>
+              <operation id="od9ce9bbb08aa45b5bad2997d504e39cb266" cid="OP004" name="AddEquipement" creation-date="12/15/2024 07:49:23" type="" type-id="" visibility="undefined" />
+              <operation id="o2234c52827724998a9a257505f088645756" cid="OP005" name="UpdateEquipement" creation-date="12/15/2024 07:49:29" type="" type-id="" visibility="undefined" />
+              <operation id="oda45e8c307da4a51a9951991f534acb2335" cid="OP006" name="RemoveEquipement" creation-date="12/15/2024 07:49:35" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="b241051d0377441083b0ca5a059090e9" cid="PROP007" type="property" name="Name" owner="f3163a9db2724da1b67e73578d4cbb77" creator="" creation-date="12/15/2024 07:48:55" visibility="private" />
+          <item id="d8f131472650493fb79e6853a455b618" cid="PROP002" type="property" name="EventName" owner="f0a26e6ffa674508b1de7fe007f59196" creator="" creation-date="12/15/2024 07:45:04" visibility="private" />
+          <item id="be83301f57154420b1f3a9bee605a313" cid="PROP028" type="property" name="StaffID" owner="340ec0fd07bc47409bd79f1b06525bf7" creation-date="12/15/2024 08:06:37" visibility="private" />
+          <item id="a9cfaca43bb041168587dd412dcf6d04" cid="PROP006" type="property" name="EquipementID" owner="f3163a9db2724da1b67e73578d4cbb77" creator="" creation-date="12/15/2024 07:48:52" visibility="private" />
+          <item id="2ebcb3653c0e4f41b0b502a8506c52d5" cid="PROP013" type="property" name="Name" owner="008c410634e44edd9df1532c4d13f4a1" creator="" creation-date="12/15/2024 07:50:54" visibility="private" />
+          <item id="155f549452ca4f32a5cf3415a9287a6e" cid="REL007" type="relationship" creation-date="12/15/2024 08:07:38" from="340ec0fd07bc47409bd79f1b06525bf7" to="f0a26e6ffa674508b1de7fe007f59196" visibility="package">
+            <owned-items />
+            <relation from="340ec0fd07bc47409bd79f1b06525bf7" to="f0a26e6ffa674508b1de7fe007f59196" derived="false">
+              <start-role id="umlar-1d3db0e1-1822-4d07-95a9-3dca3150fd11" name="" navigability="" association-type="association" visibility="private" property-ref="5e7730cbd6f74ed1b285de160ae71fcc" />
+              <end-role id="umlar-67dac6cb-a2e8-48eb-82e8-8c3d5a7d8222" name="" navigability="" association-type="association" visibility="private" property-ref="12410bca847e4ff0ba7229967b307090" />
+            </relation>
+          </item>
+          <item id="659e82bdc64e4b4fbf7739206ecd2c40" cid="REL003" type="relationship" creator="" creation-date="12/15/2024 07:52:37" from="f0a26e6ffa674508b1de7fe007f59196" to="008c410634e44edd9df1532c4d13f4a1" visibility="package">
+            <owned-items />
+            <relation from="f0a26e6ffa674508b1de7fe007f59196" to="008c410634e44edd9df1532c4d13f4a1" derived="false">
+              <start-role id="umlar-4ab8635b-0804-4819-8dcb-e01d09737885" name="" navigability="" association-type="association" visibility="private" property-ref="622ceea4dd874725b06f17ec412551d2" />
+              <end-role id="umlar-e6f8125d-ec92-451d-bd0b-211c4609d3c2" name="" navigability="" association-type="association" visibility="private" attribute-ref="a8a80d64409f54f3da3e7b44171e15d95573" property-ref="2278d4c9a19e4112bc3b3569cf7c68f4" />
+            </relation>
+          </item>
+          <item id="61d8146e888a465eada78ee946344401" cid="PROP038" type="property" name="VenueID" owner="e2d205acb5c447c5be7e6edb405b739f" creation-date="12/15/2024 08:08:52" visibility="private" />
+          <item id="6e163a97e5854259b745586ef115ad5c" cid="PROP003" type="property" name="EventDate" owner="f0a26e6ffa674508b1de7fe007f59196" creator="" creation-date="12/15/2024 07:45:16" visibility="private" />
+          <item id="eadb4509bb834da099b17833c455a3ca" cid="PROP040" type="property" name="Location" owner="e2d205acb5c447c5be7e6edb405b739f" creation-date="12/15/2024 08:09:12" visibility="private" />
+          <item id="0563d7436edb4748b1e4fb140975131a" cid="PROP012" type="property" name="MaterialID" owner="008c410634e44edd9df1532c4d13f4a1" creator="" creation-date="12/15/2024 07:50:52" visibility="private" />
+          <item id="285c20ddf205403da329c34938168e49" cid="PROP005" type="property" name="CustomerID" owner="f0a26e6ffa674508b1de7fe007f59196" creator="" creation-date="12/15/2024 07:45:33" visibility="private" />
+          <item id="84cab240b92f420eaa1f26d67b673acd" cid="PROP031" type="property" name="EventID" owner="340ec0fd07bc47409bd79f1b06525bf7" creation-date="12/15/2024 08:07:02" visibility="private" />
+          <item id="340ec0fd07bc47409bd79f1b06525bf7" cid="C005" type="class" name="Staff" creation-date="12/15/2024 08:06:20">
+            <owned-items />
+            <attributes>
+              <attribute id="a562804ae614a4fa39b1f6e8f3ef6d8e6489" cid="PROP028" name="StaffID" creation-date="12/15/2024 08:06:37" property-ref="be83301f57154420b1f3a9bee605a313" />
+              <attribute id="aa3902d49fba54b0fa4274c4a5a2dd4c2223" cid="PROP029" name="FullName" creation-date="12/15/2024 08:06:51" property-ref="5023e94c5b1743b69bcf49f08a2cb292" />
+              <attribute id="a127303b0659b4b9695c9fda33560fd29331" cid="PROP030" name="Role" creation-date="12/15/2024 08:06:56" property-ref="805becb44d75426f859029d7cfdbcae2" />
+              <attribute id="abf143d0fe3634e85901816d01745c5b3931" cid="PROP031" name="EventID" creation-date="12/15/2024 08:07:02" property-ref="84cab240b92f420eaa1f26d67b673acd" />
+            </attributes>
+            <operations>
+              <operation id="oadf8f448bd2e48b58ab6f48b1d5d9881232" cid="OP013" name="AssigntoEvent" creation-date="12/15/2024 08:07:13" type="" type-id="" visibility="undefined" />
+              <operation id="oc540a6b65d4448f5a121215d348e8fd0414" cid="OP014" name="RemoveEvent" creation-date="12/15/2024 08:07:18" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="817074ff35a24c8fa46e6abb97872394" cid="REL004" type="relationship" creation-date="12/15/2024 08:01:38" from="9c5ca41e63ab44ac91747a5aefd5db8a" to="f0a26e6ffa674508b1de7fe007f59196" visibility="package">
+            <owned-items />
+            <relation from="9c5ca41e63ab44ac91747a5aefd5db8a" to="f0a26e6ffa674508b1de7fe007f59196" derived="false">
+              <start-role id="umlar-2528c9f8-2bcd-481c-9918-758f195ef189" name="" navigability="" association-type="association" visibility="private" property-ref="1c59a4e5e558458faec05420b8b6e2e0" />
+              <end-role id="umlar-b774bf40-af21-48c0-af8a-6155d27e8b21" name="" navigability="" association-type="association" visibility="private" property-ref="bec20de922b646b6b6de4ae4bc29d415" />
+            </relation>
+          </item>
+          <item id="579dd7dba55f4da8957f8e5915a220f9" cid="PROP039" type="property" name="VenueName" owner="e2d205acb5c447c5be7e6edb405b739f" creation-date="12/15/2024 08:09:04" visibility="private" />
+          <item id="f0a26e6ffa674508b1de7fe007f59196" cid="C001" type="class" name="Event" creator="" creation-date="12/15/2024 07:43:16" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="af481a06199b34334b5367b07189d2af7921" cid="PROP001" name="EventID" creation-date="12/15/2024 07:44:09" property-ref="e312270da6824dbc8315e557b40efbac" />
+              <attribute id="a6b36c25b4e304feeb962df1cb040b050138" cid="PROP002" name="EventName" creation-date="12/15/2024 07:45:04" property-ref="d8f131472650493fb79e6853a455b618" />
+              <attribute id="a4403f009c4284c0cbceeb605953bae40448" cid="PROP003" name="EventDate" creation-date="12/15/2024 07:45:16" property-ref="6e163a97e5854259b745586ef115ad5c" />
+              <attribute id="a704357d7b5494d64987efca163ac01e8524" cid="PROP004" name="VenueID" creation-date="12/15/2024 07:45:27" property-ref="51fafa6a4f214f9c986870fb9455cc52" />
+              <attribute id="a625e4afc854e454fb8e6e45a04652a8f83" cid="PROP005" name="CustomerID" creation-date="12/15/2024 07:45:33" property-ref="285c20ddf205403da329c34938168e49" />
+            </attributes>
+            <operations>
+              <operation id="odbc12ab9c5c24c94992732b2a45ce8f4554" cid="OP001" name="CreateEvent" creation-date="12/15/2024 07:45:46" type="" type-id="" visibility="undefined" />
+              <operation id="o6a8c8f70312a4f9b85e136f343f6ecb838" cid="OP002" name="EditEvent" creation-date="12/15/2024 07:46:23" type="" type-id="" visibility="undefined" />
+              <operation id="o8a90b666b6c24e6db29206ab218b1156544" cid="OP003" name="DeleteEvent" creation-date="12/15/2024 07:46:29" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="e312270da6824dbc8315e557b40efbac" cid="PROP001" type="property" name="EventID" owner="f0a26e6ffa674508b1de7fe007f59196" creator="" creation-date="12/15/2024 07:44:09" visibility="private" />
+          <item id="1a279e8acfa144c9b0e6b47310cda11c" cid="PROP042" type="property" name="cost" owner="e2d205acb5c447c5be7e6edb405b739f" creation-date="12/15/2024 08:09:55" visibility="private" />
+          <item id="805becb44d75426f859029d7cfdbcae2" cid="PROP030" type="property" name="Role" owner="340ec0fd07bc47409bd79f1b06525bf7" creation-date="12/15/2024 08:06:56" visibility="private" />
+          <item id="640263ac15ce43d1a6001a151a7e6808" cid="PROP041" type="property" name="EventID" owner="e2d205acb5c447c5be7e6edb405b739f" creation-date="12/15/2024 08:09:27" visibility="private" />
+          <item id="070488776cf746658c47acee5d3f0263" cid="REL001" type="relationship" creator="" creation-date="12/15/2024 07:50:02" from="f0a26e6ffa674508b1de7fe007f59196" to="f3163a9db2724da1b67e73578d4cbb77" visibility="package">
+            <owned-items />
+            <relation from="f0a26e6ffa674508b1de7fe007f59196" to="f3163a9db2724da1b67e73578d4cbb77" derived="false">
+              <start-role id="umlar-1687c1e6-08a3-403b-8446-7c5c321058f1" name="" navigability="" association-type="association" visibility="private" attribute-ref="a704357d7b5494d64987efca163ac01e8524" property-ref="de4f27ee6e354c6bb8da2df4a41f3503" />
+              <end-role id="umlar-0a0bc871-f677-4e92-b190-5af05068e9f6" name="" navigability="" association-type="association" visibility="private" attribute-ref="a2534125b2ecf4ea4b31664fa00a0eb9c269" property-ref="d1fa268604084b678c69f11df27da9ec" />
+            </relation>
+          </item>
+          <item id="5023e94c5b1743b69bcf49f08a2cb292" cid="PROP029" type="property" name="FullName" owner="340ec0fd07bc47409bd79f1b06525bf7" creation-date="12/15/2024 08:06:51" visibility="private" />
+          <item id="e2d205acb5c447c5be7e6edb405b739f" cid="C006" type="class" name="Venue" creation-date="12/15/2024 08:08:38">
+            <owned-items />
+            <attributes>
+              <attribute id="a333879ef545b4441bae78f3bd7dfee3a582" cid="PROP038" name="VenueID" creation-date="12/15/2024 08:08:52" property-ref="61d8146e888a465eada78ee946344401" />
+              <attribute id="a09ed15733f384bd5b6e931a78549d625668" cid="PROP039" name="VenueName" creation-date="12/15/2024 08:09:04" property-ref="579dd7dba55f4da8957f8e5915a220f9" />
+              <attribute id="a4c9f9e2e43404acbb53b7a60d530d39c88" cid="PROP040" name="Location" creation-date="12/15/2024 08:09:12" property-ref="eadb4509bb834da099b17833c455a3ca" />
+              <attribute id="a82beaa7ad8c144c580d8fcbc863b5450337" cid="PROP042" name="cost" creation-date="12/15/2024 08:09:55" property-ref="1a279e8acfa144c9b0e6b47310cda11c" />
+              <attribute id="a3b6c0656bbe7488889067801b05cfdc3659" cid="PROP041" name="EventID" creation-date="12/15/2024 08:09:27" property-ref="640263ac15ce43d1a6001a151a7e6808" />
+            </attributes>
+            <operations>
+              <operation id="of23c8044e661476fb2ea7929355e9f7a112" cid="OP015" name="CreateVenue" creation-date="12/15/2024 08:09:38" type="" type-id="" visibility="undefined" />
+              <operation id="o47310c2cdd9840098f914e8f77145cce52" cid="OP016" name="EditVenue" creation-date="12/15/2024 08:09:43" type="" type-id="" visibility="undefined" />
+              <operation id="o7aed2c69e5db437fb578e8dcf73dcf74652" cid="OP017" name="DeleteVenue" creation-date="12/15/2024 08:09:49" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+        </abstract-items>
+        <layer id="c39701575132420b93c7835a1c466707" name="Default" visible="true" enabled="true" locked="false">
+          <item id="f0a26e6ffa674508b1de7fe007f59196" iid="f4517113348f417ebaa35590874a5149" show-fields="true" creation-date="12/15/2024 07:43:16" order-index="0" type="entity">
+            <layout ax="245" ay="84.5" awidth="207" aheight="194" x="245" y="84.5" width="207" height="194" />
+            <classifier />
+            <class />
+          </item>
+          <item id="f3163a9db2724da1b67e73578d4cbb77" iid="e7b547b33c1f4b4f9af7e6f443a0f86f" show-fields="true" creation-date="12/15/2024 07:47:48" order-index="1" type="entity">
+            <layout ax="715" ay="84.5" awidth="241" aheight="175" x="715" y="84.5" width="241" height="175" />
+            <classifier />
+            <class />
+          </item>
+          <item id="070488776cf746658c47acee5d3f0263" iid="ff62247a43d84763ab35940922453357" creation-date="12/15/2024 07:50:02" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="452" y1="182" x2="715" y2="182" start-border-pos="0.375" end-border-pos="0.8614285714285714" start-local-pos="97.5" end-local-pos="97.5" name-position="0,20">
+              <points>
+                <point x="452" y="182" />
+                <point x="715" y="182" />
+              </points>
+            </layout>
+            <relation from="f0a26e6ffa674508b1de7fe007f59196" from-iid="f4517113348f417ebaa35590874a5149" from-field="a704357d7b5494d64987efca163ac01e8524" to="f3163a9db2724da1b67e73578d4cbb77" to-iid="e7b547b33c1f4b4f9af7e6f443a0f86f" />
+          </item>
+          <item id="008c410634e44edd9df1532c4d13f4a1" iid="6653f306797040f081e8af6938c00c4e" show-fields="true" creation-date="12/15/2024 07:50:15" order-index="3" type="entity">
+            <layout ax="-157" ay="84.5" awidth="278" aheight="194" x="-157" y="84.5" width="278" height="194" />
+            <classifier />
+            <class />
+          </item>
+          <item id="659e82bdc64e4b4fbf7739206ecd2c40" iid="c39ad1ac4b3e4508b8cab4363b810794" creation-date="12/15/2024 07:52:37" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="245" y1="182" x2="121" y2="182" start-border-pos="0.8743556701030928" end-border-pos="0.375" start-local-pos="97.5" end-local-pos="97.5" name-position="0,20">
+              <points>
+                <point x="245" y="182" />
+                <point x="121" y="182" />
+              </points>
+            </layout>
+            <relation from="f0a26e6ffa674508b1de7fe007f59196" from-iid="f4517113348f417ebaa35590874a5149" to="008c410634e44edd9df1532c4d13f4a1" to-iid="6653f306797040f081e8af6938c00c4e" />
+          </item>
+          <item id="9c5ca41e63ab44ac91747a5aefd5db8a" iid="789d1a10b38a4a78b2f9bc868912fb58" show-fields="true" creation-date="12/15/2024 07:59:50" order-index="5" type="entity">
+            <layout ax="-4" ay="377.5" awidth="171" aheight="191" x="-4" y="377.5" width="171" height="175" />
+            <classifier />
+            <class />
+          </item>
+          <item id="817074ff35a24c8fa46e6abb97872394" iid="3f63f1734e524f659479048f0cbe94ec" creation-date="12/15/2024 08:01:38" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="82" y1="378" x2="245" y2="278" start-border-pos="0.12573099415204678" end-border-pos="0.7506443298771046" start-local-pos="86" end-local-pos="193.5" name-position="0,20">
+              <points>
+                <point x="82" y="378" />
+                <point x="245" y="278" />
+              </points>
+            </layout>
+            <relation from="9c5ca41e63ab44ac91747a5aefd5db8a" from-iid="789d1a10b38a4a78b2f9bc868912fb58" to="f0a26e6ffa674508b1de7fe007f59196" to-iid="f4517113348f417ebaa35590874a5149" />
+          </item>
+          <item id="340ec0fd07bc47409bd79f1b06525bf7" iid="e756fa1d543545479c07f8847ee21c29" show-fields="true" creation-date="12/15/2024 08:06:20" order-index="7" type="entity">
+            <layout ax="226" ay="363.5" awidth="226" aheight="146" x="226" y="363.5" width="226" height="146" />
+            <classifier />
+            <class />
+          </item>
+          <item id="155f549452ca4f32a5cf3415a9287a6e" iid="a6acafdd7e034b02beb8fc44e9a2c8d5" creation-date="12/15/2024 08:07:38" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="339" y1="364" x2="352" y2="278" start-border-pos="0.125" end-border-pos="0.6207729468599034" start-local-pos="113" end-local-pos="107" name-position="0,20">
+              <points>
+                <point x="339" y="364" />
+                <point x="352" y="278" />
+              </points>
+            </layout>
+            <relation from="340ec0fd07bc47409bd79f1b06525bf7" from-iid="e756fa1d543545479c07f8847ee21c29" to="f0a26e6ffa674508b1de7fe007f59196" to-iid="f4517113348f417ebaa35590874a5149" />
+          </item>
+          <item id="e2d205acb5c447c5be7e6edb405b739f" iid="5cf3e69d2e604968a1b936e4f2920dcc" show-fields="true" creation-date="12/15/2024 08:08:38" order-index="9" type="entity">
+            <layout ax="550" ay="361" awidth="187" aheight="207" x="550" y="361" width="187" height="207" />
+            <classifier />
+            <class />
+          </item>
+          <item id="8276c76354294eb990a68ac184024832" iid="f1749a826462448794f46650e93d0c25" creation-date="12/15/2024 08:10:08" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="550" y1="361" x2="452" y2="278" start-border-pos="0" end-border-pos="0.5" start-local-pos="0" end-local-pos="193.5" name-position="0,20">
+              <points>
+                <point x="550" y="361" />
+                <point x="452" y="278" />
+              </points>
+            </layout>
+            <relation from="e2d205acb5c447c5be7e6edb405b739f" from-iid="5cf3e69d2e604968a1b936e4f2920dcc" to="f0a26e6ffa674508b1de7fe007f59196" to-iid="f4517113348f417ebaa35590874a5149" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="entity-relationship" id="pe426ede46c37402688674b438e98e3cb_558319388" name="EntityRelationshipDiagram1" order-index="2" overview-order-index="0" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-180,90">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/15/2024 08:11:03</creation-date>
+          <change-date>12/15/2024 08:22:01</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="7d742cee57484a35804e3decbd49c5a0" cid="REL011" type="erd-relationship" creation-date="12/15/2024 08:22:01" from="a06b1b220f884b328b95b66cb82cf50e" to="fb5cf289fa964725b804417bb297304c">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="35397b46ba9b45d0804477e3142de5c8" cid="ENT002" type="erd-entity" name="Equipments" creation-date="12/15/2024 08:11:49">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a734b6a8700054b90831d4d38b71be67f194" cid="EA005" name="EquipementUD" type="" type-id="" primary-key="true" nullable="false" creation-date="12/15/2024 08:15:51" />
+              <attribute uid="a05288413fddb4b52bb1333dee80b77fe719" cid="EA006" name="Name" type="" type-id="" nullable="false" creation-date="12/15/2024 08:15:31" />
+              <attribute uid="a40a7c0164d6e4336adb3bde2dae88150920" cid="EA007" name="Quantity" type="" type-id="" nullable="false" creation-date="12/15/2024 08:15:40" />
+              <attribute uid="a31a41f8ca68c4a5d99ea92c2105ce1df594" cid="EA008" name="EventID" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/15/2024 08:15:46" />
+            </attributes>
+          </item>
+          <item id="fb5cf289fa964725b804417bb297304c" cid="ENT005" type="erd-entity" name="Customers" creation-date="12/15/2024 08:12:41">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a8ffe05a58f9f4aed8ed1eb800e6fbe23473" cid="EA018" name="CustomerID" type="" type-id="" primary-key="true" nullable="false" creation-date="12/15/2024 08:18:01" />
+              <attribute uid="acda60779283745ec977b8f9bc149803e903" cid="EA019" name="FullName" type="" type-id="" nullable="false" creation-date="12/15/2024 08:18:04" />
+              <attribute uid="a790a69cf4e5b4169bab9d6eead0fcd57279" cid="EA020" name="PhoneNumber" type="" type-id="" nullable="false" creation-date="12/15/2024 08:18:15" />
+              <attribute uid="a0b6fc96d095c4a819884c5598835ef11196" cid="EA021" name="Email" type="" type-id="" nullable="false" creation-date="12/15/2024 08:18:19" />
+              <attribute uid="aa89416c563b4430f9adb591ba881d1dd34" cid="EA022" name="EventID" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/15/2024 08:18:25" />
+            </attributes>
+          </item>
+          <item id="7dbe57a5fc1d4c4d955e2eb566060294" cid="ENT009" type="erd-entity" name="Venues" creation-date="12/15/2024 08:13:02">
+            <entity description="" />
+            <attributes>
+              <attribute uid="ad7e8935fbf0c4e9cb66a3f6597610712857" cid="EA023" name="VenueID" type="" type-id="" primary-key="true" nullable="false" creation-date="12/15/2024 08:18:46" />
+              <attribute uid="ad0e9dcd6559c4c1d888f97e6c4acddea362" cid="EA024" name="VenueName" type="" type-id="" nullable="false" creation-date="12/15/2024 08:18:58" />
+              <attribute uid="a1bc73b4d1c27485c9edf59d44fce19a4299" cid="EA025" name="Location" type="" type-id="" nullable="false" creation-date="12/15/2024 08:19:03" />
+            </attributes>
+          </item>
+          <item id="a06b1b220f884b328b95b66cb82cf50e" cid="ENT001" type="erd-entity" name="Events" creation-date="12/15/2024 08:11:33">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a3c08084cbfc240eaad98170075df0813923" cid="EA001" name="EventID" type="" type-id="" primary-key="true" nullable="false" creation-date="12/15/2024 08:14:34" />
+              <attribute uid="aa6f00f0a76034ee78fde18815227fae2178" cid="EA002" name="EventName" type="" type-id="" nullable="false" creation-date="12/15/2024 08:13:57" />
+              <attribute uid="a36bdc9be510944aab95de13e6cb5cef0651" cid="EA003" name="VenueID" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/15/2024 08:14:06" />
+              <attribute uid="a8bebf0a81fe942b598194b501747c5f1703" cid="EA004" name="CustomerID" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/15/2024 08:14:29" />
+            </attributes>
+          </item>
+          <item id="25e02e4f75c94e37a4dea60e0734edc1" cid="REL005" type="erd-relationship" creation-date="12/15/2024 08:20:52" from="a06b1b220f884b328b95b66cb82cf50e" to="35397b46ba9b45d0804477e3142de5c8">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="980073c2a1944841b4cd7a068f01bcf4" cid="REL010" type="erd-relationship" creation-date="12/15/2024 08:21:42" from="a06b1b220f884b328b95b66cb82cf50e" to="7dbe57a5fc1d4c4d955e2eb566060294">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="1">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="2ac29e57d55248048f9758f40a6a1e18" cid="REL009" type="erd-relationship" creation-date="12/15/2024 08:21:10" from="a06b1b220f884b328b95b66cb82cf50e" to="1e6f797b28214124adbf44e0f5ce46da">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="3b707f9193b746da99e71c1d0175741f" cid="REL006" type="erd-relationship" creation-date="12/15/2024 08:21:03" from="a06b1b220f884b328b95b66cb82cf50e" to="b9d2c592a6ec4c57a458fce61ec33e20">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="1e6f797b28214124adbf44e0f5ce46da" cid="ENT004" type="erd-entity" name="Staff" creation-date="12/15/2024 08:12:22">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a69ad88385cbc4219971d7e0e2d5d21bb747" cid="EA014" name="StaffID" type="" type-id="" primary-key="true" nullable="false" creation-date="12/15/2024 08:17:18" />
+              <attribute uid="a759dcac62c75443fb1589c923b8d05e3606" cid="EA015" name="FullName" type="" type-id="" nullable="false" creation-date="12/15/2024 08:17:24" />
+              <attribute uid="af0f7fcf737184593aed654702385e679614" cid="EA016" name="Role" type="" type-id="" nullable="false" creation-date="12/15/2024 08:17:27" />
+              <attribute uid="a199915ab43134e49a0e50854031491fe236" cid="EA017" name="EventID" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/15/2024 08:17:31" />
+            </attributes>
+          </item>
+          <item id="b9d2c592a6ec4c57a458fce61ec33e20" cid="ENT003" type="erd-entity" name="Materials" creation-date="12/15/2024 08:12:07">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a8c5cee89fe5a405d8b83ef5983648216348" cid="EA009" name="MaterialID" type="" type-id="" primary-key="true" nullable="false" creation-date="12/15/2024 08:16:23" />
+              <attribute uid="ab2f10dc2c0604656b3bcd686f23c95f5298" cid="EA010" name="Name" type="" type-id="" nullable="false" creation-date="12/15/2024 08:16:34" />
+              <attribute uid="a13d9a28b86ca46079d2a050231207d12337" cid="EA011" name="Cost" type="" type-id="" nullable="false" creation-date="12/15/2024 08:16:38" />
+              <attribute uid="a46644202e48e4c689becf3c8df8f444f472" cid="EA012" name="Quantity" type="" type-id="" nullable="false" creation-date="12/15/2024 08:16:45" />
+              <attribute uid="a44fd8cbdbb6a490dbb8e1534663a09f9490" cid="EA013" name="EventID" type="" type-id="" foreign-key="true" nullable="false" creation-date="12/15/2024 08:16:59" />
+            </attributes>
+          </item>
+        </abstract-items>
+        <layer id="ce112f552aa64d1f81314b15547b4e22" name="Default" visible="true" enabled="true" locked="false">
+          <item id="a06b1b220f884b328b95b66cb82cf50e" iid="fb4585ba89b343779b794cca0e7bc4c7" creation-date="12/15/2024 08:11:33" order-index="0" type="entity">
+            <layout ax="300" ay="65" awidth="193" aheight="174" x="300" y="65" width="193" height="174" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="35397b46ba9b45d0804477e3142de5c8" iid="620815e01d784c30aee28936ba0e1e06" creation-date="12/15/2024 08:11:49" order-index="1" type="entity">
+            <layout ax="763" ay="89" awidth="171" aheight="174" x="763" y="89" width="171" height="174" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="b9d2c592a6ec4c57a458fce61ec33e20" iid="7cb1543049084b6b8c58921a140efe35" creation-date="12/15/2024 08:12:07" order-index="2" type="entity">
+            <layout ax="288" ay="347" awidth="205" aheight="219" x="288" y="347" width="205" height="219" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="1e6f797b28214124adbf44e0f5ce46da" iid="10c2ec9403b54cdf8d48f6edbb7b1aa1" creation-date="12/15/2024 08:12:22" order-index="3" type="entity">
+            <layout ax="627" ay="347" awidth="171" aheight="174" x="627" y="347" width="171" height="174" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="fb5cf289fa964725b804417bb297304c" iid="c83da4fc79704bfca8cbcabf546af340" creation-date="12/15/2024 08:12:41" order-index="4" type="entity">
+            <layout ax="28" ay="246" awidth="193" aheight="188" x="28" y="246" width="193" height="188" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="7dbe57a5fc1d4c4d955e2eb566060294" iid="9d918529a47a42068c36c08bf4e0f4f1" creation-date="12/15/2024 08:13:02" order-index="6" type="entity">
+            <layout ax="92" ay="-82" awidth="140" aheight="160" x="92" y="-82" width="140" height="160" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="25e02e4f75c94e37a4dea60e0734edc1" iid="f998fea7924c473fb9fdc30d491f9963" creation-date="12/15/2024 08:20:52" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="493" y1="152" x2="763" y2="160" start-border-pos="0.375" end-border-pos="0.8979885057471264" start-local-pos="87" end-local-pos="71" name-position="0,20">
+              <points>
+                <point x="493" y="152" />
+                <point x="763" y="160" />
+              </points>
+            </layout>
+            <relation from="a06b1b220f884b328b95b66cb82cf50e" from-iid="fb4585ba89b343779b794cca0e7bc4c7" to="35397b46ba9b45d0804477e3142de5c8" to-iid="620815e01d784c30aee28936ba0e1e06" />
+          </item>
+          <item id="3b707f9193b746da99e71c1d0175741f" iid="be08076ce51145c495eaf410df4a86f8" creation-date="12/15/2024 08:21:03" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="396" y1="239" x2="390" y2="347" start-border-pos="0.6256476683937824" end-border-pos="0.12439024390243902" start-local-pos="96" end-local-pos="102" name-position="0,20">
+              <points>
+                <point x="396" y="239" />
+                <point x="390" y="347" />
+              </points>
+            </layout>
+            <relation from="a06b1b220f884b328b95b66cb82cf50e" from-iid="fb4585ba89b343779b794cca0e7bc4c7" to="b9d2c592a6ec4c57a458fce61ec33e20" to-iid="7cb1543049084b6b8c58921a140efe35" />
+          </item>
+          <item id="2ac29e57d55248048f9758f40a6a1e18" iid="52056ff4816f4b0691af3e9b018f6cb4" creation-date="12/15/2024 08:21:10" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="493" y1="239" x2="627" y2="347" start-border-pos="0.5" end-border-pos="0" start-local-pos="174" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="493" y="239" />
+                <point x="627" y="347" />
+              </points>
+            </layout>
+            <relation from="a06b1b220f884b328b95b66cb82cf50e" from-iid="fb4585ba89b343779b794cca0e7bc4c7" to="1e6f797b28214124adbf44e0f5ce46da" to-iid="10c2ec9403b54cdf8d48f6edbb7b1aa1" />
+          </item>
+          <item id="980073c2a1944841b4cd7a068f01bcf4" iid="4e45846995fd42cfaed157db4823fb15" creation-date="12/15/2024 08:21:42" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="300" y1="104" x2="232" y2="68" start-border-pos="0.9439655172413793" end-border-pos="0.484375" start-local-pos="39" end-local-pos="150" name-position="0,20">
+              <points>
+                <point x="300" y="104" />
+                <point x="232" y="68" />
+              </points>
+            </layout>
+            <relation from="a06b1b220f884b328b95b66cb82cf50e" from-iid="fb4585ba89b343779b794cca0e7bc4c7" to="7dbe57a5fc1d4c4d955e2eb566060294" to-iid="9d918529a47a42068c36c08bf4e0f4f1" />
+          </item>
+          <item id="7d742cee57484a35804e3decbd49c5a0" iid="8754aa0518d5446fb24921344f0e57f3" creation-date="12/15/2024 08:22:01" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="300" y1="206" x2="221" y2="246" start-border-pos="0.7974137931034483" end-border-pos="0.25" start-local-pos="141" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="300" y="206" />
+                <point x="221" y="246" />
+              </points>
+            </layout>
+            <relation from="a06b1b220f884b328b95b66cb82cf50e" from-iid="fb4585ba89b343779b794cca0e7bc4c7" to="fb5cf289fa964725b804417bb297304c" to-iid="c83da4fc79704bfca8cbcabf546af340" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
